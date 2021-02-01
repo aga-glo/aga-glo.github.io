@@ -1,0 +1,283 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 25px;
+	color: black;
+	font-weight: 400;
+	}
+
+header {
+	height: 100vh;
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	z-index: 0;
+	color: white;
+}
+main {
+	height: 100%;
+	background-color: #FAFAFA;
+	margin-top: 100vh;
+	position: relative;
+	z-index: 2;
+}
+header img {
+	position: absolute;
+	bottom: 0px;
+	height: 100%;
+	width: 100%;
+		
+}
+header hgroup {
+position: absolute;
+top: 10%;
+left: 10%;
+text-transform: uppercase;
+font-weight: 400;
+font-size: 40px;
+z-index: 2;
+color: white;
+}
+
+.myIcons{
+	display: flex;
+	width: 100%;
+	margin: 30px auto;
+	font-size: 50px;
+	justify-content: space-evenly;
+	padding: 0 20%;
+}
+	a:link {color: black;}
+	a:visited {color: grey;}
+	a:active {color: grey;}
+	
+
+.cvEnglish .tooltipText{
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  opacity: 0.8;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.cvEnglish:hover .tooltipText {
+  visibility: visible;
+}
+.cvEnglish{
+	position: relative;
+}
+.cv .tooltipText{
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  opacity: 0.8;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.cv:hover .tooltipText {
+  visibility: visible;
+}
+.cv{
+	position: relative;
+}
+.linkedIn .tooltipText{
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  opacity: 0.8;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.linkedIn:hover .tooltipText {
+  visibility: visible;
+}
+.linkedIn{
+	position: relative;
+}
+.github .tooltipText{
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  opacity: 0.8;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.github:hover .tooltipText {
+  visibility: visible;
+}
+.github{
+	position: relative;
+}
+
+.oMnie {
+		
+		top: 20%;
+		left: 40%;
+		}
+.oMnie2 {
+		
+		width: 80%;
+		margin: 0px auto;
+		}
+	
+	.picture {
+	width: 40%;
+	}
+
+  	main h3 {
+		font-size: 25px;
+		font-weight: 400;
+		text-transform: uppercase;
+		color: black;
+	}
+.firstSection {
+	display: flex;
+	margin: 10px auto;
+	
+}
+
+.myPhoto{
+	width: 200px;
+	height: 250px;
+	margin: 10px auto;
+	flex-direction: column;
+	border-radius: 50%;
+}
+
+.textStyle{
+	
+	margin-left: 30px;
+	
+}
+.globalSection{
+	width: 80%; 
+	margin: 20px auto;
+	background-color: #FAFAFA;
+	line-height: 30px;
+}
+
+
+	
+
+.textStyle{
+	
+	margin-left: 30px;
+	
+}
+
+.globalSection h3 {
+	font-size: 40px;
+	font-weight: 800;
+	line-height: 100px;
+}
+.globalSection h4 {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 30px;
+}
+
+.arrow{
+    position: absolute;
+    bottom:10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+   }
+
+.arrow span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #FFFFFF;
+    border-right: 5px solid lightgrey;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+.downUp{
+	font-size: 15px;
+	color: white;
+	text-transform: uppercase;
+}
+.PU_R{
+	text-transform: uppercase;
+	cursor: pointer;
+	line-height: 40px; 
+}
+
+.colorSection {
+    background: #A91D62;
+    color: #fff;
+    width: 100%;
+   	line-height: 40px;
+}
+.colorStyle p{
+	    font-size: 40px;
+    	font-weight: 800;
+    	line-height: 100px;
+		text-transform: uppercase;
+		color: white;
+}
