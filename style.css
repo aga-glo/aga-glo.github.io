@@ -5,22 +5,22 @@
 }
 
 html {
-	font-family: 'Quicksand', sans-serif;
-	font-size: 25px;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
 	color: black;
-	font-weight: 400;
-	}
+	
+}
 
 header {
 	height: 100vh;
 	width: 100%;
-	background-color: white;
+	background-color: black;
 	position: fixed;
 	top: 0;
 	left: 0;
 	overflow-x: hidden;
 	z-index: 0;
-	color: white;
+	color: black;
 }
 main {
 	height: 100%;
@@ -31,33 +31,30 @@ main {
 }
 header img {
 	position: absolute;
-	bottom: 0px;
+	bottom: 0;
 	height: 100%;
 	width: 100%;
 		
 }
 header hgroup {
 position: absolute;
-top: 10%;
+top: 9%;
 left: 10%;
 text-transform: uppercase;
-font-weight: 400;
-font-size: 40px;
 z-index: 2;
-color: white;
 }
 
 .myIcons{
 	display: flex;
 	width: 100%;
-	margin: 30px auto;
+	margin: 0px auto;
 	font-size: 50px;
 	justify-content: space-evenly;
 	padding: 0 20%;
 }
 	a:link {color: black;}
-	a:visited {color: grey;}
-	a:active {color: grey;}
+	a:visited {color: #A91164;}
+	a:active {color: #ff6ec7;}
 	
 
 .cvEnglish .tooltipText{
@@ -153,15 +150,10 @@ color: white;
 	position: relative;
 }
 
-.oMnie {
+	.oMnie {
 		
 		top: 20%;
 		left: 40%;
-		}
-.oMnie2 {
-		
-		width: 80%;
-		margin: 0px auto;
 		}
 	
 	.picture {
@@ -169,20 +161,76 @@ color: white;
 	}
 
   	main h3 {
-		font-size: 25px;
+		font-size: 35px;
 		font-weight: 400;
 		text-transform: uppercase;
 		color: black;
 	}
+
+main h3 {
+  border-right: solid 3px black;
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: black;
+}
+
+/* Animation */
+main h3 {
+  animation: animated-text 4s steps(2,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 472px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
+}
+	
+@media (orientation: portrait) {
+	h3 span::after {
+		content: '\A';
+		white-space: pre;
+	}
+}
+
+@media (orientation: landscape) {
+	header img {
+	position: absolute;
+	bottom: 10%;
+	height: 100%;
+	width: 100%;
+	}
+}
+
+@media (min-width: 200px){
+	
+.globalSection{
+	width: 90%; 
+	margin: 10px auto;
+	background-color: #FAFAFA;
+	line-height: 30px;
+}
+
+
+
 .firstSection {
-	display: flex;
+	display: inline-block;
 	margin: 10px auto;
 	
 }
 
 .myPhoto{
-	width: 200px;
-	height: 250px;
+	width: 100%;
 	margin: 10px auto;
 	flex-direction: column;
 	border-radius: 50%;
@@ -192,17 +240,6 @@ color: white;
 	
 	margin-left: 30px;
 	
-}
-.globalSection{
-	width: 80%; 
-	margin: 20px auto;
-	background-color: #FAFAFA;
-	line-height: 30px;
-}
-
-.textStyle{
-	
-	margin-left: 30px;	
 }
 
 .globalSection h3 {
@@ -216,20 +253,160 @@ color: white;
 	line-height: 30px;
 }
 
+
+
+@media (min-width: 530px) and (orientation: portrait) {
+
+}
+@media (min-width: 768px) {}
+@media (min-width: 768px) and (orientation: portrait) {
+		header img {
+		height: 60%
+		right: -20%;
+	}
+	
+	header hgroup{
+		top: 8%;
+	}
+	main img {
+	width: 45%;
+	height: 45%;
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	transform: translateX(-50%);
+	border-radius: 50%;
+	border: 2px solid white;
+	}
+	main h3 {
+		font-size: 4.5rem;
+		font-weight: 400;
+		position: absolute;
+		top: 10%;
+		left: 70%;
+		text-transform: uppercase;
+	}
+.myPhoto {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	}
+	
+}
+@media (min-width: 1024px) {}
+@media (min-width: 1024px) and (orientation: portrait) {
+		header img {
+		height: 70%
+		right: -10%;
+	}
+	
+
+	header h3 {
+		
+	}
+	header hgroup{
+		top: 12%;
+	}
+			
+	main img {
+	width: 45%;
+	height: 45%;
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	transform: translateX(-50%);
+	border-radius: 50%;
+	border: 2px solid white;
+	}
+	main h3 {
+		font-size: 4.5rem;
+		font-weight: 400;
+		position: absolute;
+		top: 10%;
+		left: 50%;
+		text-transform: uppercase;
+	}
+
+	main p {
+		width: 40%;		
+		position: absolute;
+		font-size: 4rem;
+		top: 20%;
+		left: 50%;
+	}
+}
+@media(min-width: 1280px) {}
+@media(min-width: 1280px) and (orientation: portrait){
+
+}
+@media (min-width: 1600px) {}
+@media (min-width: 1600px) and (orientation: portrait) {
+
+}
+
+@keyframes arrow {
+	0% {transform: translateY(-80px)
+	}
+	50% {transition: translateY(0px)
+	}
+	100% {transition:  translateY(80px)
+	}
+}
+
+
+.globalSection{
+	width: 90%; 
+	margin: 10px auto;
+	background-color: #FAFAFA;
+	line-height: 30px;
+}
+
+
+
+.firstSection {
+	display: flex;
+	margin: 10px auto;
+	
+}
+
+.myPhoto{
+	width: 100%;
+	margin: 10px auto;
+	flex-direction: column;
+	border-radius: 50%;
+}
+
+.textStyle{
+	
+	margin-left: 30px;
+	
+}
+
+.globalSection h3 {
+	font-size: 40px;
+	font-weight: 800;
+	line-height: 100px;
+}
+.globalSection h4 {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 30px;
+}
+
+
 .arrow{
     position: absolute;
     bottom:10%;
     left: 50%;
     transform: translate(-50%,-50%);
-    color: white;
    }
 
 .arrow span{
     display: block;
     width: 30px;
     height: 30px;
-    border-bottom: 5px solid #FFFFFF;
-    border-right: 5px solid lightgrey;
+    border-bottom: 5px solid #000000;
+    border-right: 5px solid #000000;
     transform: rotate(45deg);
     margin: -10px;
     animation: animate 2s infinite;
@@ -253,79 +430,59 @@ color: white;
         transform: rotate(45deg) translate(20px,20px);
     }
 }
+.pierwszyKafel {
+	width: 150px;
+	margin: 10px 50px;
+	flex-direction: column;
+	
+}
+.drugiKafel {
+	width: 150px;
+	margin: 50px 50px;
+	flex-direction: column;
+	
+}
+.trzeciKafel {
+	width: 150px;
+	margin: 100px 50px;
+	flex-direction: column;
+	
+}
+
+
+
+
+
+
 .downUp{
-	font-size: 15px;
-	color: white;
+	font-size: 20px;
+	color: grey;
 	text-transform: uppercase;
 }
 .PU_R{
 	text-transform: uppercase;
 	cursor: pointer;
-	line-height: 40px; 
+}
+/// zmienić spany i p na coś innego co nie będzie globalne i można użyć tylko dla wybranytch akcji
+span {
+  position: relative;
 }
 
-.colorSection {
-    background: #A91D62;
-    color: #fff;
-    width: 100%;
-    line-height: 40px;
-    padding-bottom: 10px;
-}
-.colorStyle p{
-	font-size: 40px;
-    	font-weight: 800;
-    	line-height: 100px;
-	text-transform: uppercase;
-	color: white;
-	padding-bottom: 10px;
+span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 15px;
+  background: #000;
+  bottom: 9px;
+  transition: all 0.2s ease-out;
 }
 
-@media(max-width: 360px) {
-    body {
-        padding: 0;
-    }
-    .myIcons{
-	display: block;
-	text-align: center;
-	line-height: 100px;
-	font-size: 60px;  
+p:hover {
+  background-position: 0 11px;
 }
-.firstSection {
-	display: block;
+
+span:hover:before {
+  transform: translateY(10px)
 }
-.myPhoto{
-	text-align: center;
-	margin: auto;
-	margin-bottom: 30px;
-}
-.textStyle{	
-	margin: auto;	
-}
-.globalSection h3 {
-    font-size: 30px;
-    line-height: 50px;
-    text-align: center;
-}
-header hgroup {
-text-align: left;
-font-size: 30px;
-}
-h1 {
-text-align: left;
-font-size: 50px;
-font-weight: 1000;	
-}
-header img {
-    height: 130%;
-    width: 130%;
-}
-.colorStyle p {
-    font-size: 30px;
-    font-weight: 800;
-    line-height: 50px;
-    text-align: center;
-}
-@media(max-width: 360px) {
-    body {
-        padding: 0;
-    }
