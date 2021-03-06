@@ -279,7 +279,7 @@ color: white;
 	padding-bottom: 10px;
 }
 
-@media(max-width: 360px) {
+@media(max-width: 320px) {
     body {
         padding: 0;
     }
@@ -325,6 +325,51 @@ header img {
     text-align: center;
 }
 @media(max-width: 360px) {
+    body {
+        padding: 0;
+    }
+    .myIcons{
+	display: block;
+	text-align: center;
+	line-height: 100px;
+	font-size: 60px;  
+}
+.firstSection {
+	display: block;
+}
+.myPhoto{
+	text-align: center;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.textStyle{	
+	margin: auto;	
+}
+.globalSection h3 {
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+}
+header hgroup {
+text-align: left;
+font-size: 30px;
+}
+h1 {
+text-align: left;
+font-size: 50px;
+font-weight: 1000;	
+}
+header img {
+    height: 130%;
+    width: 130%;
+}
+.colorStyle p {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 50px;
+    text-align: center;
+}
+@media(max-width: 480px) {
     body {
         padding: 0;
     }
