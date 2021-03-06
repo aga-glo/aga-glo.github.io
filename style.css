@@ -279,7 +279,7 @@ color: white;
 	padding-bottom: 10px;
 }
 
-@media(max-width: 320px) {
+@media(max-width: 360px) {
     body {
         padding: 0;
     }
@@ -369,6 +369,7 @@ header img {
     line-height: 50px;
     text-align: center;
 }
+	}
 @media(max-width: 480px) {
     body {
         padding: 0;
