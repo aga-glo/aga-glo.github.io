@@ -3,14 +3,12 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-
 html {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 25px;
 	color: black;
 	font-weight: 400;
-	}
-
+}
 header {
 	height: 100vh;
 	width: 100%;
@@ -33,21 +31,19 @@ header img {
 	position: absolute;
 	bottom: 0px;
 	height: 100%;
-	width: 100%;
-		
+	width: 100%;		
 }
 header hgroup {
-position: absolute;
-top: 10%;
-left: 10%;
-text-transform: uppercase;
-font-weight: 400;
-font-size: 40px;
-z-index: 2;
-color: white;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 40px;
+	z-index: 2;
+	color: white;
 }
-
-.myIcons{
+.myIcons {
 	display: flex;
 	margin: 30px auto;
 	font-size: 50px;
@@ -58,152 +54,135 @@ color: white;
 	a:visited {color: grey;}
 	a:active {color: grey;}
 	
-
-.cvEnglish .tooltipText{
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  opacity: 0.8;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -60px;
-  font-size: 15px;
-  text-transform: uppercase;
+.cvEnglish .tooltipText {
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	opacity: 0.8;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -60px;
+	font-size: 15px;
+	text-transform: uppercase;
 }
 .cvEnglish:hover .tooltipText {
-  visibility: visible;
+  	visibility: visible;
 }
-.cvEnglish{
+.cvEnglish {
 	position: relative;
 }
-.cv .tooltipText{
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  opacity: 0.8;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -60px;
-  font-size: 15px;
-  text-transform: uppercase;
+.cv .tooltipText {
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	opacity: 0.8;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -60px;
+	font-size: 15px;
+	text-transform: uppercase;
 }
 .cv:hover .tooltipText {
-  visibility: visible;
+	visibility: visible;
 }
-.cv{
+.cv {
 	position: relative;
 }
-.linkedIn .tooltipText{
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  opacity: 0.8;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -60px;
-  font-size: 15px;
-  text-transform: uppercase;
+.linkedIn .tooltipText {
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	opacity: 0.8;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -60px;
+	font-size: 15px;
+	text-transform: uppercase;
 }
 .linkedIn:hover .tooltipText {
-  visibility: visible;
+	visibility: visible;
 }
-.linkedIn{
+.linkedIn {
 	position: relative;
 }
-.github .tooltipText{
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  opacity: 0.8;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -60px;
-  font-size: 15px;
-  text-transform: uppercase;
+.github .tooltipText {
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	opacity: 0.8;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -60px;
+	font-size: 15px;
+	text-transform: uppercase;
 }
 .github:hover .tooltipText {
-  visibility: visible;
+	visibility: visible;
 }
-.github{
+.github {
 	position: relative;
 }
-
 .oMnie {
-		
-		top: 20%;
-		left: 40%;
-		}
+	top: 20%;
+	left: 40%;
+}
 .oMnie2 {
-		
-		width: 80%;
-		margin: 0px auto;
-		}
-	
-	.picture {
+	width: 80%;
+	margin: 0px auto;
+}
+.picture {
 	width: 40%;
-	}
-
-  	main h3 {
-		font-size: 25px;
-		font-weight: 400;
-		text-transform: uppercase;
-		color: black;
-	}
+}
+main h3 {
+	font-size: 25px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: black;
+}
 .firstSection {
 	display: flex;
 	margin: 10px auto;
-	
 }
-
-.myPhoto{
+.myPhoto {
 	width: 200px;
 	height: 250px;
 	margin: 10px auto;
 	flex-direction: column;
 	border-radius: 50%;
 }
-
-.textStyle{
-	
+.textStyle {
 	margin-left: 30px;
-	
 }
-.globalSection{
+.globalSection {
 	width: 80%; 
 	margin: 0px auto;
 	background-color: #FAFAFA;
 	line-height: 30px;
 }
-
-.textStyle{
-	
-	margin-left: 30px;	
-}
-
 .globalSection h3 {
 	font-size: 40px;
 	font-weight: 800;
@@ -214,16 +193,14 @@ color: white;
 	font-weight: 600;
 	line-height: 30px;
 }
-
-.arrow{
+.arrow {
     position: absolute;
     bottom:10%;
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
-   }
-
-.arrow span{
+}
+.arrow span {
     display: block;
     width: 30px;
     height: 30px;
@@ -233,36 +210,35 @@ color: white;
     margin: -10px;
     animation: animate 2s infinite;
 }
-.arrow span:nth-child(2){
+.arrow span:nth-child(2) {
     animation-delay: -0.2s;
 }
-.arrow span:nth-child(3){
+.arrow span:nth-child(3) {
     animation-delay: -0.4s;
 }
 @keyframes animate {
-    0%{
+    0% {
         opacity: 0;
         transform: rotate(45deg) translate(-20px,-20px);
     }
-    50%{
+    50% {
         opacity: 1;
     }
-    100%{
+    100% {
         opacity: 0;
         transform: rotate(45deg) translate(20px,20px);
     }
 }
-.downUp{
+.downUp {
 	font-size: 15px;
 	color: white;
 	text-transform: uppercase;
 }
-.PU_R{
+.PU_R {
 	text-transform: uppercase;
 	cursor: pointer;
 	line-height: 40px; 
 }
-
 .colorSection {
     background: #A91D62;
     color: #fff;
@@ -270,7 +246,7 @@ color: white;
     line-height: 40px;
     padding-bottom: 10px;
 }
-.colorStyle p{
+.colorStyle p {
 	font-size: 40px;
     	font-weight: 800;
     	line-height: 100px;
@@ -278,9 +254,6 @@ color: white;
 	color: white;
 	padding-bottom: 10px;
 }
-
-
-
 ///RWD
 
 
@@ -288,50 +261,50 @@ color: white;
   body {
         padding: 0;
   }
-  .myIcons{
-  display: block;
-  text-align: center;
-  line-height: 100px;
-  font-size: 60px;  
+  .myIcons {
+	display: block;
+	text-align: center;
+	line-height: 100px;
+	font-size: 60px;  
   }
   .firstSection {
-    display: block;
+	display: block;
   }
-  .myPhoto{
-    text-align: center;
-    margin: auto;
-    margin-bottom: 30px;
+  .myPhoto {
+	text-align: center;
+	margin: auto;
+	margin-bottom: 30px;
   }
-  .textStyle{ 
-    margin: auto; 
+  .textStyle { 
+    	margin: auto; 
   }
   .globalSection h3 {
-      font-size: 30px;
-      line-height: 50px;
-      text-align: center;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
   }
   header hgroup {
-  text-align: left;
-  font-size: 30px;
+	text-align: left;
+	font-size: 30px;
   }
   h1 {
-  text-align: left;
-  font-size: 50px;
-  font-weight: 1000;  
+	text-align: left;
+	font-size: 50px;
+	font-weight: 1000;  
   }
   header img {
-      height: 130%;
-      width: 130%;
+        height: 130%;
+        width: 130%;
   }
   .colorStyle p {
-      font-size: 30px;
-      font-weight: 800;
-      line-height: 50px;
-      text-align: center;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 50px;
+        text-align: center;
   }
-  .colorSection{
-      padding-bottom: 20px;
-      padding-top: 20px;
+  .colorSection {
+        padding-bottom: 20px;
+        padding-top: 20px;
     }
 }
 @media(max-width: 480px) {
@@ -340,50 +313,49 @@ color: white;
     }
 
   .myIcons {
-  display: block;
-  text-align: center;
-  line-height: 100px;
-  font-size: 60px;  
+	display: block;
+	text-align: center;
+	line-height: 100px;
+	font-size: 60px;  
   }
   .firstSection {
-    display: block;
+    	display: block;
   }
   .myPhoto {
-    text-align: center;
-    margin: auto;
-    margin-bottom: 30px;
-
+    	text-align: center;
+    	margin: auto;
+    	margin-bottom: 30px;
   }
   .textStyle { 
-    margin: auto; 
+        margin: auto; 
   }
   .globalSection h3 {
-      font-size: 30px;
-      line-height: 50px;
-      text-align: center;
+        font-size: 30px;
+        line-height: 50px;
+        text-align: center;
   }
   header hgroup {
-  text-align: left;
-  font-size: 30px;
+  	text-align: left;
+  	font-size: 30px;
   }
   h1 {
-  text-align: left;
-  font-size: 50px;
-  font-weight: 1000;  
+	text-align: left;
+	font-size: 50px;
+	font-weight: 1000;  
   }
   header img {
-      height: 130%;
-      width: 130%;
+        height: 130%;
+        width: 130%;
   }
   .colorStyle p {
-      font-size: 30px;
-      font-weight: 800;
-      line-height: 50px;
-      text-align: center;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 50px;
+        text-align: center;
   }
   .colorSection {
-      padding-bottom: 20px;
-      padding-top: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
   }
 }
 @media(max-width: 600px) {
@@ -391,42 +363,42 @@ color: white;
         padding: 0;
   }
   .myIcons {
-  display: block;
-  text-align: center;
-  line-height: 100px;
-  font-size: 60px; 
-  padding: initial; 
-}
-   .firstSection {
-    display: block;
+	display: block;
+	text-align: center;
+	line-height: 100px;
+	font-size: 60px; 
+	padding: initial; 
   }
-  .textStyle{ 
-    margin: auto; 
+   .firstSection {
+        display: block;
+  }
+  .textStyle { 
+  	margin: auto; 
   }
   .globalSection h3 {
-      font-size: 30px;
-      line-height: 50px;
-      text-align: center;
-      padding-top: 20px;
+        font-size: 30px;
+        line-height: 50px;
+        text-align: center;
+        padding-top: 20px;
   }
   header hgroup {
-  text-align: left;
-  font-size: 30px;
+	text-align: left;
+	font-size: 30px;
   }
   h1 {
-  text-align: left;
-  font-size: 50px;
-  font-weight: 1000;  
+	text-align: left;
+	font-size: 50px;
+	font-weight: 1000;  
   }
   header img {
-      height: 130%;
-      width: 130%;
+        height: 130%;
+        width: 130%;
   }
   .colorStyle p {
-      font-size: 30px;
-      font-weight: 800;
-      line-height: 50px;
-      text-align: center;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 50px;
+        text-align: center;
   }
   .colorSection {
       padding-bottom: 20px;
@@ -434,30 +406,29 @@ color: white;
     }
 }
 @media (max-width: 768px) {
- .globalSection h3 {
-    font-size: 25px;
-    
+   .globalSection h3 {
+       font-size: 25px;
+    }
 }
 
 @media (max-width: 900px) {
-.globalSection h3 {
-    font-size: 25px;
-    
-}
-.colorStyle p {
-    font-size: 25px;
-}
+   .globalSection h3 {
+   	font-size: 25px;
+   }
 
+    .colorStyle p {
+    	font-size: 25px;
+}
+}
 @media (max-width: 1200px) {
-
- header hgroup {
-  text-align: left;
-  font-size: 30px;
+  header hgroup {
+  	text-align: left;
+  	font-size: 30px;
   }
   h1 {
-  text-align: left;
-  font-size: 50px;
-  font-weight: 1000;  
+  	text-align: left;
+  	font-size: 50px;
+  	font-weight: 1000;  
   }
 }
 
